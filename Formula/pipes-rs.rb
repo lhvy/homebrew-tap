@@ -6,6 +6,6 @@ class PipesRs < Formula
   version "1.6.2"
 
   def install
-    bin.install "release/pipes-rs"
+    bin.install "pipes-rs-mac-universal" => "pipes-rs"
   end
 end
